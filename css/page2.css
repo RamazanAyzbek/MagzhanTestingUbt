@@ -1,0 +1,46 @@
+.btn-math{ 
+
+width: 250px;
+height: 250px;
+ 
+
+margin : 0 auto; 
+text-align: center;
+padding-top: 30px;
+}
+.div-select{
+    margin-bottom: 20px; 
+}
+
+.knopka-math{
+      border: none; 
+        border: 2px solid black;
+        border-radius: 15px;
+        background-color: aqua;
+     width: 300px;
+     height: 50px;
+   margin-bottom: 30px;
+    }
+    .form-select{
+       width: 250px;
+       outline: none;
+       background-color: rgb(224, 197, 75);
+       padding: 10px; 
+       text-align: center;
+      border-radius: 15px; 
+      font-style: italic;
+      }
+      .form-select:hover{
+         background-color: rgb(117, 235, 229);
+      }
+ .select-option{
+    background-color: rgb(218, 89, 211);
+    margin-left: 20px; 
+ }
+
+
+
+    .knopka-math:hover{
+ background-color: rgb(120, 233, 135);
+    }
+    

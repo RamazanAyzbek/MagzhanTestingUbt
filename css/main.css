@@ -58,6 +58,7 @@ body .header-nav{
 .signup-form {
 	width: 400px;
 	margin: 30px auto;
+	position: relative;
 }
 .signup-form form {
 	color: #999;
@@ -118,11 +119,12 @@ body .header-nav{
     color: black; 
 }
 .end-block{ 
-   
+   position: absolute;
     width: 100%;
     height: 200px;
     background-color: black;
     position: relative;
+	margin-top: 70px;
 }
 .row-text{ 
     width: 100%;
