@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
@@ -21,57 +22,68 @@ href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelIn
 </head>
 <body>
     <div class="header-nav">
-       <h1 class="header-shakirt">Shakirt  <span class="dis-block">|</span></h1>
-        <p class="text-header">Математика <br>    онлайн порталы</p>
-   
-    
-        <img class="img-phone" src="img/images-removebg-preview.png" alt="">
-        <span class="header-phone"> <a style="color: white; " href="wa.me//77074289598"> +7 707 949 5274 </a></span>
-   
+        <div class="head_first"> 
+            <div class="logo_and_text ">
+                 <p class="header-shakirt"> Shakirt   <span class="dis-block">|</span></p>
+            </div>
+            <div style="margin-top: 9px;">
+                <p class="text-header">Математика <br>    онлайн порталы</p>
+            </div>
+                <div class="phone-number">
+                <img class="img-phone" src="img/images-removebg-preview.png" alt="">
+                <span class="header-phone"> <a style="color: white; " href="wa.me//77074289598"> +7 707 949 5274 </a></span>
+            </div>
+        </div>
     </div>
     <div class="signup-form">
-        <form action="/examples/actions/confirmation.php" method="post">
+        <form action="page2.html" method="post">
             <h2>Деңгейді анықтау</h2>
             <p>Деңгейді анықтау өту үшін тіркелу</p>
             <hr>
             <div class="form-group">
                 <div class="row">
-                    <div class="col"><input type="text" class="form-control" name="first_name" placeholder="Аты" required="required"></div>
-                    <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Фамилия" required="required"></div>
+                    <div class="col"><input type="text" required class="form-control" name="first_name" placeholder="Аты" required="required"></div>
+                    <div class="col"><input type="text" required class="form-control" name="last_name" placeholder="Фамилия" required="required"></div>
                 </div>        	
             </div>
             <div class="form-group">
-                <input id="phone" type="tel" class="form-control" name="phone" placeholder="Оқушының телефон номері" required="required">
+                <input id="phone" type="tel" required class="form-control" name="phone" placeholder="Оқушының телефон номері" required="required">
             </div>
             <div class="form-group">
-                <input id="phone" type="tel" class="form-control" name="phone" placeholder="Ата анасының номері" required="required">
+                <input id="phone" type="tel" required class="form-control" name="phone" placeholder="Ата анасының номері" required="required">
             </div>
             <div class="form-group">
-                <input class="form-control" type="number" min="1"max="11" placeholder="Сыныпты таңдаңыз">
+                <input class="form-control"  aria-required="true" type="number" min="5"max="11" placeholder="Сыныпты таңдаңыз">
               
                
             </div>        
             
             <div class="form-group">
               
-               <input type="button" class="btn btn-primary btn-lg" value="Форманы жіберу" onclick='location.href="page2.html"'>
+              <a href="page2.html"> <input type="submit"  class="btn btn-primary btn-lg" value="Форманы жіберу"></a> 
             </div>
         </form>
         <div class="hint-text">Форманы толтырсаңыз біз жақын арада байланысқа шығамыз  <a style="color: black;" href="https://instagram.com">instagram/shakirt_kz</a></div>
     </div>
     <div class="end-block">
         <div class="row-text">
-            <h3 style="margin-left: 160px;">Shakirt</h3>
+            <h3 class="h3-shakirt">Shakirt</h3>
             <p>Qoldau qyzmeti <br> magzanabdikaiyr@gmail.com</p>
-            <p>Jums uaqyty <br> d-s 19:00 20:00</p>
-            <p style="margin-right: 50px;">Telephon : <br> +7 707 949 5274</p>
+            <p class="time-job">Jums uaqyty <br> d-s 19:00 20:00</p>
+            <p  class="tel-info">Telephon : <br> +7 707 949 5274</p>
+            
            
         </div>
     </div>
 </body>
-<script>
+<!--
+    onclick='location.href="page2.html"'
+  <script>
     $('.nav-toggle').on('click', function(){
+        
       $('#menu').toggleClass('active');
     });
-    </script>
+    </script>  
+-->
+
 </html>
